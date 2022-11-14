@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+.hat{
+	height: 80px;
+	background: #020214;
+	padding: 10px 150px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.hat_rating{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	width: 120px;	
+}
+.hat_links{
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+}
+.hat_links a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+.hat_links button{
+	width: 250px;
+	height: 35px;
+	background: #00274A;
+	border-radius: 5px;
+	color: white;
+	font-size: 20px;
+	box-shadow: 0 0 10px white;
+	cursor: pointer;
+}
+.hat_links img{
+	height: 40px;
+	cursor: pointer;
+}
+.hat_logo img{
+	height: 50px;
+}
+.promo{
+	height: 820px;
+	background: url(img/promo_bg.png);
+	background-position: 50% 50%;
+	background-size: cover;
+	padding-top: 150px;
+}
+.promo h1{
+	color: white;
+	font-size: 96px;
+	font-weight: 500;
+	font-family: serif;
+	text-align: center;	
+
+}
+.promo_divider{
+	height: 3px;
+	width: 800px;
+	background: white;
+	margin: auto;
+}
+.promo p{
+	width: 800px;
+	color: white;
+	margin:auto;
+	text-align: center;
+	margin-top: 35px;
+	font-size:20px;
+}
+.promo button{
+	width: 290px;
+	height: 55px;
+	background: #00274A;
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+	margin-top: 35px;
+	text-align: center;
+	font-weight: 400;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+.promo a{
+	display: block;
+	margin: auto;
+	margin-top: 280px;
+	height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
